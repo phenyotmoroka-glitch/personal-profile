@@ -22,9 +22,13 @@ It is designed to be clean, responsive, and easy to navigate.
 📂 Sections
 
 ├── README.md             # User Guide
+
 ├── index.html            # Main website structure
+
 ├── style.css             # Custom styling and image sizing
+
 └── unnamed.jpg           # Profile image
+
 
 
 📧 Contact Form
