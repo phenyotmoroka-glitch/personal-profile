@@ -46,7 +46,7 @@ The contact form is integrated using Formspree to allow visitors to send message
 - Add animations
 - Improve UI design
 - Add projects section
-- Deploy live version
+
 
 ---
 
