@@ -37,7 +37,7 @@ The contact form is integrated using Formspree to allow visitors to send message
 
 🚀 How to Run
 
-1. You can visit the site which is hosted here on Github, at 
+1. You can visit the site which is hosted here on Github, at https://phenyotmoroka-glitch.github.io/personal-profile/
 2. Or, Download or clone the repository.  Open "index.html" in your browser.
   
 
