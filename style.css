@@ -9,6 +9,10 @@ padding-top: 70px;
 
 }
 
+section {
+  min-height: 100vh;
+  padding: 80px 20px;
+
 .profile-img {
     width: 180px;        /* Controls size */
     height: 180px;       /* Must match width */
