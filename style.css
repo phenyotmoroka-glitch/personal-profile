@@ -10,8 +10,9 @@ padding-top: 70px;
 }
 
 section {
-  min-height: 100vh;
-  padding: 80px 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
 .profile-img {
     width: 180px;        /* Controls size */
