@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Phenyo Moroka | Portfolio</title>
+    <!-- Bootstrap & Custom CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
 </head>
-<body data-bs-spy="scroll" data-bs-target="#navbarNav">
+<body>
 
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">PORTFOLIO</a>
+            <a class="navbar-brand fw-bold" href="#">PHENYO.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,127 +28,56 @@
         </div>
     </nav>
 
-    <header class="hero-section d-flex align-items-center">
+    <!-- Hero Section -->
+    <header class="hero-section d-flex align-items-center py-5 mt-5">
         <div class="container text-center">
-            <img src= unnamed.jpg alt="Profile Image" class="rounded-circle profile-img mb-4 border border-4 border-white shadow">
-            <h1 class="display-3 fw-bold">
-				
-				Hi, I'm <span class="text-primary">
-					
-					
-		Phenyo Moroka</span></h1>
-            <p class="lead mb-4">I am Phenyo Tsotlhe Moroka. I am a male of age 20 and this is My Personal Blog!</p>
-            
+            <img src="unnamed.jpg" alt="Phenyo Moroka" class="rounded-circle profile-img mb-4 border border-4 border-white shadow" style="width: 150px; height: 150px; object-fit: cover;">
+            <h1 class="display-3 fw-bold">Hi, I'm <span class="text-primary">Phenyo Moroka</span></h1>
+            <p class="lead mb-4">20-year-old Computer Systems Engineering Student & Tech Enthusiast.</p>
         </div>
     </header>
 
+    <!-- About Section -->
     <section id="about" class="py-5">
-		<<div class="col-md-12">
-        <div class="container">
-            <h2 class="text-center mb-5">About Me</h2>
+        <div class="container text-center">
+            <h2 class="mb-4">About Me</h2>
             <div class="row justify-content-center">
-                <div class="col-md-8 text-center">
-                    <p>I  am currently studying for my bachelor's degree in Computer Systems Engineering at Botswana Accountancy College. The other levels of education I have completed are BGCSE and PSLE.
-​
-I love building things with technology-like recreating old games for fun-which sparked my passion for Computer Systems Engineering. Outside of code, I am a big fan of comics and gaming.</p>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <section id="skills" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5">Skills</h2>
-            <div class="row g-4 text-center">
-                <div class="col-6 col-md-3">
-                    <div class="p-3 border rounded bg-white shadow-sm">Java</div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="p-3 border rounded bg-white shadow-sm">Python</div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="p-3 border rounded bg-white shadow-sm">Web Design</div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="p-3 border rounded bg-white shadow-sm">Reading</div>
+                <div class="col-md-8">
+                    <p>I am currently studying for my Bachelor's degree in <strong>Computer Systems Engineering</strong> at Botswana Accountancy College. I love recreating old games for fun and diving into the world of comics and gaming.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="education" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Education</h2>
-            <div class="timeline">
-                <div class="mb-4">
-                    <h5 class="fw-bold">Tetiary</h5>
-                    <p class="text-muted">Botswana Accountancy College | 2025-Present </p>
-                    <p>
-I am currently pursuing my bachelor's degree in Computer Systems Engineering at Botswana Accountancy College and will be completing my studies in 2029.
-
-</p>
-
-<h5 class="fw-bold">Senior</h5>
-                    <p class="text-muted">Lobatse Senior Secondary School | 2022-2023</p>
-                    <p>
-
-
-I have completed BGCSE and received 45 of 48 points.
-                </div>
+    <!-- Contact Section Fix -->
+    <section id="contact" class="container py-5">
+        <h2 class="text-center mb-4">Let's Connect</h2>
+        <form action="https://formspree.io/f/xkovdqql" method="POST" class="mx-auto" style="max-width: 600px;">
+            <div class="mb-3">
+                <label class="form-label">Full Name</label>
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
             </div>
-        </div>
+            <div class="mb-3">
+                <label class="form-label">Email Address</label>
+                <input type="email" name="email" class="form-control" placeholder="name@example.com" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea name="message" rows="4" class="form-control" placeholder="How can I help you?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+        </form>
     </section>
 
-    <section id="contact" 
-    
-    class="container py-5"> 
-    
-    <h2 class="text-center mb-5">Contact Me</h2> 
-                        <p class="text-muted">Add an email alongside your "Message", if you wish to get a response!</p> 
-    
-    <form action="https://formspree.io/f/xkovdqql"method="POST">
-    
-        <div class="container">
-            
-           
-                        <div class="mb-3">
-							<label
-							class="form-label">Name</label>
-                            <input type="text" name="name" 
-                            class="form-control" required>
-                            
-                        </div>
-                        
-                        
-                        
-                        
-                        <div class="mb-3">
-							<label
-							class="form-label>Email</label>
-                            <input type="email" 
-                            class="form-control" required>
-                        </div>
-                        
-                        
-                        
-                        
-                        
-                        <div class="mb-3">
-							<label
-							class="form-label">Message</label>
-                            <textarea name="message" rows="5" class ="form-control" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>  
-    </section>
-
-
+    <!-- Back to Top Button (Targeted by JS) -->
+    <button id="backToTop" class="btn btn-primary position-fixed bottom-0 end-0 m-4 shadow" style="display: none; z-index: 1000;">↑</button>
 
     <footer class="py-4 text-center border-top">
         <p class="mb-0 text-muted">&copy; 2026 Phenyo Moroka. All rights reserved.</p>
     </footer>
 
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
